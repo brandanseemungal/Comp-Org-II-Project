@@ -1,0 +1,4 @@
+.data
+prompt: .asciiz "Enter your Howard ID: "
+Char: .asciiz "Enter Character Code: "
+Low: .asciiz "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
