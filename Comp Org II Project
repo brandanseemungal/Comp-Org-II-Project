@@ -18,3 +18,7 @@ move $s0, $v0
 li $t0, 11
 div $s0, $t0
 mfhi $s1
+
+li $v0, 1
+move $a0, $s1
+syscall
