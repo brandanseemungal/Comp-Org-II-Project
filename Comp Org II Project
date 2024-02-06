@@ -14,3 +14,7 @@ syscall
 li $v0, 5
 syscall
 move $s0, $v0
+
+li $t0, 11
+div $s0, $t0
+mfhi $s1
