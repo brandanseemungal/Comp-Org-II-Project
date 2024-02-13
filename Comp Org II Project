@@ -121,3 +121,6 @@ process_substring:
      move $s0, $a0
      li $t6, 0
      li $t8, 0
+
+loop_substring:
+     lb $t8, ($s0)
