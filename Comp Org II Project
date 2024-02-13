@@ -3,3 +3,4 @@ buffer: .space 1000
 nl:     .asciiz "\n"
 space   .asciiz " "
 slash:  .asciiz "/"
+colon:  .asciiz ": "
