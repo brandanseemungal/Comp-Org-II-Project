@@ -138,3 +138,7 @@ is_lower_sub:
      bge $t8, $t2, is_upper_sub
      sub $t8, $t8, $t1
      addi $t8, $t8, 10
+     j calculate_sum_sub
+
+is_upper_sub:
+     sub $t8, $t8, $t2
