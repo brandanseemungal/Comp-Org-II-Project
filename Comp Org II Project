@@ -95,3 +95,9 @@ print_delimiter:
 
 continue_loop:
      addi $s0, $s0, 1
+     bgtz $t6, update_counter
+     b continue_loop
+
+update_counter:
+     beq $t8, $t4, reset_sum
+     addi $t6, $t6, 1
