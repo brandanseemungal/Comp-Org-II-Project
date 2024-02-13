@@ -33,3 +33,4 @@ process_whole_string:
      li $t4, 47
      li $t5, 32
      li $t6, 0
+     li $t7, 0
