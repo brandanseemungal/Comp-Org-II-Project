@@ -22,3 +22,5 @@ main:
 
 process_whole_string:
      move $s0, $a0
+
+     
