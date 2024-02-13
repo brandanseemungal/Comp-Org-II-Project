@@ -1,3 +1,4 @@
       .data
 buffer: .space 1000
-nl:     .ascooz "\n"
+nl:     .asciiz "\n"
+space   .asciiz " "
