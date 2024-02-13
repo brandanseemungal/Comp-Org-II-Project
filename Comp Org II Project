@@ -39,3 +39,4 @@ loop_whole_string:
      lb $t8, ($s0)
 
      beq $t8, $zero, print_output
+     beq $t8, $t4, process_substring
