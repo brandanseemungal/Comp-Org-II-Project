@@ -113,3 +113,6 @@ print_output:
      syscall
 
      jr $ra
+
+process_substring:
+     addi $sp, $sp, -4
