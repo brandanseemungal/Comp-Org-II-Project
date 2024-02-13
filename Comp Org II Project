@@ -59,3 +59,8 @@ is_upper:
 
 calculate_sum:
      add $t7, $t7, $t8
+     j continue_loop
+
+process_substring:
+     move $a0, $s0
+     jal process_substring
