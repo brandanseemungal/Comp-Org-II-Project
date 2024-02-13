@@ -116,3 +116,6 @@ print_output:
 
 process_substring:
      addi $sp, $sp, -4
+     sw $ra, 0($sp)
+
+     move $s0, $a0
