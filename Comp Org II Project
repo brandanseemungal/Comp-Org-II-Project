@@ -120,3 +120,4 @@ process_substring:
 
      move $s0, $a0
      li $t6, 0
+     li $t8, 0
