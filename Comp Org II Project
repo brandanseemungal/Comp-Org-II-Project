@@ -5,3 +5,9 @@ space   .asciiz " "
 slash:  .asciiz "/"
 colon:  .asciiz ": "
 errmsg: .asciiz "Error\n"
+
+    .text
+    .globl main
+
+main:
+      li $v0, 8
