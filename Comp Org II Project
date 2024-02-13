@@ -119,3 +119,4 @@ process_substring:
      sw $ra, 0($sp)
 
      move $s0, $a0
+     li $t6, 0
