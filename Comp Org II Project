@@ -153,3 +153,6 @@ continue_loop_sub:
      j loop_substring
 
 end_substring:
+     lw $ra, 0($sp)
+     addi $sp, $sp, 4
+     move $v0, $t6
