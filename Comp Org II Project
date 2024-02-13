@@ -16,3 +16,5 @@ main:
       syscall
 
       jal process_whole_string
+
+      li $v0, 10
