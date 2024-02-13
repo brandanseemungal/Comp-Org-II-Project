@@ -142,3 +142,4 @@ is_lower_sub:
 
 is_upper_sub:
      sub $t8, $t8, $t2
+     addi $t8, $t8, 10
