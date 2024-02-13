@@ -105,3 +105,11 @@ update_counter:
 
 reset_sum
      li $t7, 0
+     j_continue_loop
+
+print_output:
+     li $v0, 4
+     la $a0, nl
+     syscall
+
+     jr $ra
