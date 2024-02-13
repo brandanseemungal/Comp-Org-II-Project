@@ -55,3 +55,4 @@ is_lower:
 
 is_upper:
      sub $t8, $t8, $t2
+     addi $t8, $t8, 10
