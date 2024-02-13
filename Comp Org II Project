@@ -101,3 +101,7 @@ continue_loop:
 update_counter:
      beq $t8, $t4, reset_sum
      addi $t6, $t6, 1
+     j continue_loop
+
+reset_sum
+     li $t7, 0
