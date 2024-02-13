@@ -150,3 +150,6 @@ calculate_sum_sub:
 
 continue_loop_sub:
      addi $s0, $s0, 1
+     j loop_substring
+
+end_substring:
