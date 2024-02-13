@@ -34,3 +34,6 @@ process_whole_string:
      li $t5, 32
      li $t6, 0
      li $t7, 0
+
+loop_whole_string:
+     lb $t8, ($s0)
