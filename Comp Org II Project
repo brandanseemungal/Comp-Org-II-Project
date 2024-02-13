@@ -124,3 +124,7 @@ process_substring:
 
 loop_substring:
      lb $t8, ($s0)
+
+     beq $t8, $zero, end_substring
+
+     ble $t0, $t8, is_num_or_letter_sub
