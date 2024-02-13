@@ -40,3 +40,5 @@ loop_whole_string:
 
      beq $t8, $zero, print_output
      beq $t8, $t4, process_substring
+     ble $t0, $t8, is_num_or_letter
+     j continue_loop
