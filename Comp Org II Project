@@ -66,3 +66,5 @@ process_substring:
      jal process_substring
 
      move $t9, $v0
+
+     bgt $t6, $zero, print_delimiter
