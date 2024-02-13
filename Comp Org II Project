@@ -146,3 +146,7 @@ is_upper_sub:
 
 calculate_sum_sub:
      add $t6, $t6, $t8
+     j loop_substring
+
+continue_loop_sub:
+     addi $s0, $s0, 1
